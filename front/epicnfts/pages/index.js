@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ethers } from "ethers";
-import myEpicNft from "../src/utils/MyEpicNFT.json";
+import myEpicNft from "../../../artifacts/contracts/MyEpicNFT.sol/MyEpicNFT.json";
 
 export default function Home() {
   const [currentAccount, setCurrentAccount] = useState("");
